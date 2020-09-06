@@ -164,7 +164,9 @@ h3 {
 h4 {
   color: #aa0c29;
 }
-
+iframe {
+  
+}
 /* Header effect */
 #effect {
   z-index: 1;
@@ -206,8 +208,8 @@ h4 {
 }
 #flip-card img{
   margin: 10px;
-  max-width: 80%;
-  max-height: 80%;
+  max-width: 60%;
+  max-height: 60%;
 }
 #flip-card-inner {
   position: relative;
