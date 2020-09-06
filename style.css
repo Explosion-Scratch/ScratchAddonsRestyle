@@ -215,8 +215,8 @@ h4 {
 }
 
 #flip-card-front {
-  background-color: #bbb;
-  color: black;
+  background-color: #000000;
+  color: white;
 }
 
 #flip-card-back {
