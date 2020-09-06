@@ -110,7 +110,7 @@ input[type="checkbox"]{
   z-index: -1;
   width: 100%;
   padding: 0 30px;
-  color: white;
+  color: #e4e4e4;
 }
 .content div{
   font-size: 40px;
@@ -246,8 +246,4 @@ h4 {
   list-style-position: inside;
   font-size:20px; 
   font-weight: 300;
-}
-.visually-hidden {
-    position: absolute;
-    left: -100vw;
 }
