@@ -43,11 +43,11 @@ nav ul li a{
   transition: all 0.5s ease;
 }
 nav ul li a:hover{
-  color: black;
+  color: w;
   background:#e06410;
 }
 nav ul li a.active:hover {
-  color: white;
+  color: #0c85aa;
 }
 nav .menu-btn i{
   color: #fff;
