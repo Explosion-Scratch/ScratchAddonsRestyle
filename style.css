@@ -219,7 +219,7 @@ h4 {
 }
 
 #flip-card-back {
-  background-color: #101010;
+  background-color: black;
   color: white;
   transform: rotateY(180deg);
 }
