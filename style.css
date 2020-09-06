@@ -47,7 +47,7 @@ nav ul li a:hover{
   background:#e06410;
 }
 nav ul li a.active:hover {
-  color: #0c85aa;
+  color: grey;
 }
 nav .menu-btn i{
   color: #fff;
