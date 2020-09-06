@@ -6,13 +6,13 @@
   font-family: 'Poppins', sans-serif;
   text-decoration: none;
   position: static;
-  background-color:black;
+  background-color:#101010;
 } 
 nav{
   display: flex;
   height: 80px;
   width: 100%;
-  background: #101010;
+  background: black;
   align-items: center;
   justify-content: space-between;
   padding: 0 50px 0 100px;
@@ -22,7 +22,7 @@ nav .logo{
   color: #fff;
   font-size: 28px;
   font-weight: 600;
-  background-color: #101010;
+  background-color: black;
 }
 nav ul{
   display: flex;
@@ -43,7 +43,7 @@ nav ul li a{
   transition: all 0.5s ease;
 }
 nav ul li a:hover{
-  color: w;
+  color: white;
   background:#e06410;
 }
 nav ul li a.active:hover {
