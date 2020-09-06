@@ -7,6 +7,8 @@
   text-decoration: none;
   position: static;
   background-color:black;
+  text-shadow: none;
+  box-shadow: none;
 } 
 nav{
   display: flex;
@@ -177,7 +179,7 @@ h4 {
   bottom: 0;
   width: 100%;
   height: 5px;
-  background: #222222;
+  background: #0c85aa;
   transform: scaleX(0);
 }
 #effect:hover:before {
