@@ -151,6 +151,7 @@ a:hover {
   color: black;
 } 
 h1 {
+  color: white;
   text-decoration: underline;
   padding-bottom: 5px;
 }
