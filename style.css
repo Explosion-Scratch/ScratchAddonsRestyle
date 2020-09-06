@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  position: static;
+} 
+nav{
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background: #1b1b1b;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+}
+nav .logo{
+  color: #fff;
+  font-size: 28px;
+  font-weight: 600;
+}
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+nav ul li{
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.5s ease;
+}
+nav ul li a:hover{
+  color: #111;
+  background:cyan;
+}
+nav ul li a.active:hover {
+  color: #111;
+}
+nav .menu-btn i{
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+input[type="checkbox"]{
+  display: none;
+}
+@media (max-width: 1000px){
+  nav{
+    padding: 0 40px 0 50px;
+  }
+}
+@media (max-width: 920px) {
+  nav .menu-btn i{
+    display: block;
+  }
+  #click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+  }
+  nav ul{
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background: #111;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  #click:checked ~ ul{
+    left: 0;
+  }
+  nav ul li{
+    width: 100%;
+    margin: 40px 0;
+  }
+  nav ul li a{
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    font-size: 20px;
+    transition: 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  #click:checked ~ ul li a{
+    margin-left: 0px;
+  }
+  nav ul li a.active,
+  nav ul li a:hover{
+    background: none;
+    color: cyan;
+  }
+}
+.content{
+  position: static;
+  text-align: center;
+  z-index: -1;
+  width: 100%;
+  padding: 0 30px;
+  color: #1b1b1b;
+}
+.content div{
+  font-size: 40px;
+  font-weight: 700;
+}
+nav {
+  position: fixed;
+}
+p {
+  margin-right: 10%;
+  margin-left: 10%;
+  text-align: left;
+  text-indent: 2em;
+}
+
+a:hover {
+  background-position: -100% 0;
+}
+a { 
+  line-height: 1em;
+  text-decoration: none;
+  color: rgb(0, 176, 189);
+  font-weight: 600;
+  background-size: 200%;
+  background-position: -0% 0;
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, rgb(0, 176, 189) 50%);
+  transition: background-position 0.3s ease-out;
+}
+ 
+a:hover {
+  background-position: -100% 0;
+  color: white;
+} 
+h1 {
+  text-decoration: underline;
+}
+h2 {
+  color: #e06410;
+}
+h3 {
+  color: #0c85aa;
+}
+h4 {
+  color: #aa0c29;
+}
+/* Header effect */
+
+#effect, #effect > span {
+  position: relative;
+}
+#effect:before, #effect:after, #effect > span:before, #effect > span:after {
+  content: '';
+  position: absolute;
+  transition: transform .5s ease;
+}
+ 
+#effect {
+  padding-top: 10px;
+}
+#effect:before {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  background: #101010;
+  transform: scaleX(0);
+}
+#effect:hover:before {
+  transform: scaleX(1);
+}
+/* Flip cards */
+#flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  margin: auto;
+  font-size: 20px;
+  font-weight: 300;
+}
+#flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#flip-card:hover #flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+#flip-card-front, #flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+#flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+#flip-card-back {
+  background-color: #101010;
+  color: white;
+  transform: rotateY(180deg);
+}
+#flip-card h1{
+  font-size:30px;
+  padding: 20px;
+}
+#flip-card p {
+  font-size:20px; 
+  font-weight: 300;
+}
+#flip-card a {
+  font-size:20px; 
+  font-weight: 300;
+}
+#flip-card ul{
+  list-style-type: square;
+  font-size:20px; 
+  font-weight: 300;
+}
+#flip-card ul{
+  list-style-type: square;
+  font-size:20px; 
+  font-weight: 300;
+}
