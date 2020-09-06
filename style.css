@@ -190,6 +190,7 @@ h4 {
   margin: auto;
   font-size: 20px;
   font-weight: 300;
+  z-index: -1;
 }
 #flip-card-inner {
   position: relative;
