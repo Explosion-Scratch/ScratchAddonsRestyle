@@ -128,6 +128,7 @@ p {
   margin-left: 10%;
   text-align: left;
   text-indent: 2em;
+  padding-top: 5px;
 }
 
 a:hover {
@@ -173,7 +174,7 @@ h4 {
 }
  
 #effect {
-  padding-top: 10px;
+  padding-top: 5px;
 }
 #effect:before {
   left: 0;
