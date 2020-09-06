@@ -146,10 +146,11 @@ a {
  
 a:hover {
   background-position: -100% 0;
-  color: white;
+  color: black;
 } 
 h1 {
   text-decoration: underline;
+  padding-bottom: 5px;
 }
 h2 {
   color: #e06410;
