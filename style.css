@@ -188,6 +188,7 @@ box-shadow: 0px 0px 5px 5px #e063107a;
 table{
   margin-right: 20px;
   margin-left: 20px;
+  transition-duration: 0.5s;
 }
 td {
   border: 0px;
@@ -198,6 +199,9 @@ td {
   color: white;
   vertical-align: top;
   text-align: center;
+}
+table:hover {
+  box-shadow: 0px 0px 5px 5px rgba(0, 255, 255, 0.589);
 }
 td p{
   margin-left: 10%;
