@@ -189,8 +189,10 @@ table{
   margin-right: 20px;
   margin-left: 20px;
   transition-duration: 0.5s;
+  border-radius: 20px;
 }
 td {
+  border-radius: 30px;
   border: 0px;
   width: 33%;
   height: auto;
