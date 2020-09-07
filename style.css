@@ -182,10 +182,14 @@ td {
   border: 2px solid red;
   width: 33%;
   height: auto;
-  padding: 12px;
+  padding: 6px;
   word-wrap: break-word;
   color: white;
   vertical-align: top;
+}
+td p{
+  margin-left: 20px;
+  margin-right: 20px;
 }
 /* Header effect */
 #effect {
