@@ -131,6 +131,12 @@ p {
   padding-top: 5px;
   float: left;
 }
+#hover {
+  border-radius: 30px;
+}
+#hover:hover {
+  box-shadow: 0 0 5 5 cyan;
+}
 tr:hover {
   box-shadow: 0 0 5 5 cyan;
 }
