@@ -181,16 +181,16 @@ h4 {
 iframe {
   padding: 10px;
 }
-#list ul {
+#readable_list ul {
   padding-left: 100px;
 }
 
-#list li {
+#readable_list li {
   color: white;
   list-style-type: circle;
   padding-left: 100px;
 }
-#list li::before {
+#readable_list li::before {
   content: '• ';
 }
 p {
