@@ -209,6 +209,10 @@ p {
   margin-right: auto;
   transition-duration: 0.5s;
 }
+#download .iconify {
+  width: 500px !important;
+  height: 500px !important;
+}
 .iconify:hover {
 box-shadow: 0px 0px 5px 5px #e063107a;
   color: #e06410;
