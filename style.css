@@ -130,6 +130,7 @@ p {
   text-align: left;
   text-indent: 2em;
   padding-top: 5px;
+  float: left;
 }
 
 a:hover {
@@ -165,7 +166,7 @@ h4 {
   color: #aa0c29;
 }
 iframe {
-  
+  padding: 10px;
 }
 /* Header effect */
 #effect {
