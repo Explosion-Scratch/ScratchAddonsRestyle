@@ -124,7 +124,7 @@ input[type="checkbox"]{
 nav {
   position: fixed;
 }
-p + tr {
+p {
   margin-right: 10%;
   margin-left: 10%;
   text-align: left;
