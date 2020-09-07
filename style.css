@@ -185,8 +185,13 @@ iframe {
   padding-left: 100px;
 }
 
-li {
+#list li {
   color: white;
+  list-style-type: circle;
+  padding-left: 100px;
+}
+#list li::before {
+  content: '• ';
 }
 p {
   color: white;
