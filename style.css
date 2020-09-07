@@ -176,6 +176,7 @@ iframe {
 }
 table {
   boder-radius: 10px;
+  width: auto !important;
 }
 td, table {
   padding: 20px;
