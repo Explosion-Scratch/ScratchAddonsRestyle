@@ -168,12 +168,23 @@ h2 {
 }
 h3 {
   color: #0c85aa;
+  padding: 20px;
 }
 h4 {
   color: #aa0c29;
 }
 iframe {
   padding: 10px;
+}
+ul {
+  padding-left: 100px;
+}
+
+li {
+  color: white;
+}
+p {
+  color: white;
 }
 .iconify { 
   background-color: black;
