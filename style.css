@@ -172,6 +172,13 @@ iframe {
   color: white; 
   width: 50px;
   height: 50px;
+  text-align: center;
+}
+table {
+  width: 80%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* Header effect */
 #effect {
