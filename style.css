@@ -175,6 +175,7 @@ iframe {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  transition-duration: 0.5s;
 }
 table{
   margin-right: 20px;
