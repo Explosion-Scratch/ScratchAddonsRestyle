@@ -169,7 +169,9 @@ iframe {
   padding: 10px;
 }
 .iconify { 
-  background-color
+  background-color: black;
+  border-radius: 10px;
+  padding: 5px;
   color: #0da2cf; 
   width: 100px;
   height: 100px;
@@ -178,8 +180,9 @@ iframe {
   margin-right: auto;
   transition-duration: 0.5s;
 }
-.iconify {
-  color:
+.iconify:hover {
+  background-color: #101010;
+  color: #3eb4d8;
 }
 table{
   margin-right: 20px;
