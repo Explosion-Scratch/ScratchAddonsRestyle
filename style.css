@@ -188,6 +188,7 @@ td, table h1{
 }
 td, table p{
   text-align: left;
+  text-indent: 0em;
 }
 /* Header effect */
 #effect {
