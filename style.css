@@ -183,6 +183,9 @@ td, table {
   color: white;
   text-align: left;
 }
+td, table h1{
+  text-align: center;
+}
 /* Header effect */
 #effect {
   z-index: 1;
