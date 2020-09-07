@@ -183,7 +183,7 @@ iframe {
   transition-duration: 0.5s;
 }
 .iconify:hover {
-  background-color: white;
+  box-shadow: 0 0 5 5 cyan;
   color: #e06410;
 }
 table{
