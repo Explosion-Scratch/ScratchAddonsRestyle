@@ -103,8 +103,7 @@ input[type="checkbox"]{
   #click:checked ~ ul li a{
     margin-left: 0px;
   }
-  nav ul li a.active,
-  nav ul li a:hover{
+  nav ul li a.active, nav ul li a:hover{
     background: none;
     color: #e06410;
   }
@@ -183,7 +182,7 @@ iframe {
   transition-duration: 0.5s;
 }
 .iconify:hover {
-  box-shadow: 0 0 5 5 cyan;
+box-shadow: 0px 0px 5px 5px #e063107a;
   color: #e06410;
 }
 table{
