@@ -175,10 +175,13 @@ iframe {
   text-align: center;
 }
 table {
-  width: 80%;
+  padding: 20px;
+  width: 20%;
   height: 500px;
   margin-left: auto;
   margin-right: auto;
+  color: white;
+  text-align: left;
 }
 /* Header effect */
 #effect {
