@@ -190,6 +190,9 @@ td, table p{
   text-align: left;
   text-indent: 0em;
 }
+.inconify td{
+  display: block;
+}
 /* Header effect */
 #effect {
   z-index: 1;
