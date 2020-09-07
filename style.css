@@ -188,6 +188,10 @@ td {
   vertical-align: top;
 }
 td p{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+td img{
   margin-left: 20px;
   margin-right: 20px;
 }
