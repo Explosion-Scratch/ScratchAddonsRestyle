@@ -184,6 +184,8 @@ td {
   height: auto;
   padding: 12px;
   word-wrap: break-word;
+  color: white;
+  vertical-align: top;
 }
 /* Header effect */
 #effect {
