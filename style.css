@@ -174,8 +174,14 @@ iframe {
   height: 50px;
   text-align: center;
 }
+table, td{
+  border: 2px solid red;
 
-
+}
+td {
+  width: 33%;
+  height: auto;
+}
 /* Header effect */
 #effect {
   z-index: 1;
