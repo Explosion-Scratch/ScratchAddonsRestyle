@@ -175,10 +175,11 @@ iframe {
   text-align: center;
 }
 table, td{
-  border: 2px solid red;
-
+  margin-right: 20px;
+  margin-left: 20px;
 }
 td {
+  border: 2px solid red;
   width: 33%;
   height: auto;
 }
