@@ -173,27 +173,26 @@ iframe {
   width: 100px;
   height: 100px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
-table, td{
+table{
   margin-right: 20px;
   margin-left: 20px;
 }
 td {
-  border: 2px solid red;
+  border: 0px;
   width: 33%;
   height: auto;
   padding: 6px;
   word-wrap: break-word;
   color: white;
   vertical-align: top;
+  text-align: center;
 }
 td p{
   margin-left: 10%;
   margin-right: 10%;
-}
-.iconify td{
-  display:block;
-  margin: 0 auto;
 }
 /* Header effect */
 #effect {
