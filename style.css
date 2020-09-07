@@ -181,8 +181,8 @@ iframe {
   transition-duration: 0.5s;
 }
 .iconify:hover {
-  background-color: #101010;
-  color: #3eb4d8;
+  background-color: white;
+  color: #e06410;
 }
 table{
   margin-right: 20px;
