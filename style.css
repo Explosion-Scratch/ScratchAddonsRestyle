@@ -132,7 +132,9 @@ p {
   padding-top: 5px;
   float: left;
 }
-
+tr:hover {
+  box-shadow: 0 0 5 5 cyan;
+}
 a:hover {
   background-position: -100% 0;
 }
