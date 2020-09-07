@@ -130,6 +130,7 @@ p {
   text-align: left;
   text-indent: 2em;
   padding-top: 5px;
+  float: left;
 }
 
 a:hover {
@@ -151,6 +152,7 @@ a:hover {
   color: black;
 } 
 h1 {
+  color: white;
   text-decoration: underline;
   padding-bottom: 5px;
 }
@@ -163,7 +165,9 @@ h3 {
 h4 {
   color: #aa0c29;
 }
-
+iframe {
+  padding: 10px;
+}
 /* Header effect */
 #effect {
   z-index: 1;
@@ -201,6 +205,12 @@ h4 {
   font-size: 20px;
   font-weight: 300;
   z-index: -1;
+  box-sizing: border-box;
+}
+#flip-card img{
+  margin: 10px;
+  max-width: 60%;
+  max-height: 60%;
 }
 #flip-card-inner {
   position: relative;
@@ -235,7 +245,7 @@ h4 {
   transform: rotateY(180deg);
 }
 #flip-card h1{
-  font-size:30px;
+  font-size:25px;
   padding: 20px;
 }
 #flip-card p {
