@@ -346,13 +346,16 @@ td p{
 /* Profile cards */
 #card-container {
   position: relative;
-  width: 50%;
+  width: 60%;
+  border-radius: 5%;
+  box-shadow: 0px 0px 5px 5px rgba(0, 255, 255, 0.589);
 }
 
 #card-image {
   display: block;
   width: 100%;
   height: auto;
+  border-radius: 5%;
 }
 
 #card-overlay {
@@ -365,6 +368,7 @@ td p{
   width: 100%;
   height:0;
   transition: .5s ease;
+  border-radius: 5%;
 }
 
 #card-container:hover #card-overlay {
