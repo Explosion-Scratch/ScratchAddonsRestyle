@@ -169,13 +169,17 @@ iframe {
   padding: 10px;
 }
 .iconify { 
-  color: white; 
+  background-color
+  color: #0da2cf; 
   width: 100px;
   height: 100px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   transition-duration: 0.5s;
+}
+.iconify {
+  color:
 }
 table{
   margin-right: 20px;
