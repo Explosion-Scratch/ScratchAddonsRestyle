@@ -191,6 +191,11 @@ iframe {
   list-style-type: circle;
   padding-left: 100px;
 }
+ol {
+  color: white;
+  padding-left: 100px;
+  list-style-position: inside;
+}
 #readable_list li::before {
   content: '• ';
 }
